@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "home 1",
+      "description": "This is the first homme added to the web site",
+      "imageUrl": "https://img-3.journaldesfemmes.fr/mXVRHyTXb2-_MfMk6Pgyplf0QsU=/910x607/smart/e5190ad5d5324fdca29632e53706937f/ccmcms-jdf/13633495.jpg",
+      "prix": 1300.45
+    },
+    {
+      "id": 2,
+      "name": "home 2",
+      "description": "This is the second homme added to the web site",
+      "imageUrl": "https://static.cotemaison.fr/medias_9689/w_2018,h_877,c_crop,x_0,y_659/w_640,h_360,c_fill,g_north/v1404829808/salon-apres-home-staging_4961219.jpg",
+      "prix": 900.45
+    },
+    {
+      "id": 3,
+      "name": "home 3",
+      "description": "This is the third homme added to the web site",
+      "imageUrl": "https://developers.google.cn/assistant/smarthome/images/smart-home.svg?hl=zh-cn",
+      "prix": 321.45
+    },
+    {
+      "id": 4,
+      "name": "home 4",
+      "description": "This is the fourth homme added to the web site",
+      "imageUrl": "https://homes.nlc.ca/media/images/Modular_pre_built_manufactured_hom.2e16d0ba.fill-900x700.jpg",
+      "prix": 42.45
+    },
+    {
+      "id": 5,
+      "name": "home 5",
+      "description": "This is the fifth homme added to the web site",
+      "imageUrl": "https://i.pinimg.com/originals/c9/aa/f8/c9aaf8853557c381c80ee827db0dad64.jpg",
+      "prix": 1560.45
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 1,
+        "name": "home 1",
+        "description": "This is the first homme added to the web site",
+        "imageUrl": "https://img-3.journaldesfemmes.fr/mXVRHyTXb2-_MfMk6Pgyplf0QsU=/910x607/smart/e5190ad5d5324fdca29632e53706937f/ccmcms-jdf/13633495.jpg",
+        "prix": 1300.45
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "home 1",
+        "description": "This is the first homme added to the web site",
+        "imageUrl": "https://img-3.journaldesfemmes.fr/mXVRHyTXb2-_MfMk6Pgyplf0QsU=/910x607/smart/e5190ad5d5324fdca29632e53706937f/ccmcms-jdf/13633495.jpg",
+        "prix": 1300.45
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "home 2",
+        "description": "This is the second homme added to the web site",
+        "imageUrl": "https://static.cotemaison.fr/medias_9689/w_2018,h_877,c_crop,x_0,y_659/w_640,h_360,c_fill,g_north/v1404829808/salon-apres-home-staging_4961219.jpg",
+        "prix": 900.45
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "home 2",
+        "description": "This is the second homme added to the web site",
+        "imageUrl": "https://static.cotemaison.fr/medias_9689/w_2018,h_877,c_crop,x_0,y_659/w_640,h_360,c_fill,g_north/v1404829808/salon-apres-home-staging_4961219.jpg",
+        "prix": 900.45
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "home 1",
+        "description": "This is the first homme added to the web site",
+        "imageUrl": "https://img-3.journaldesfemmes.fr/mXVRHyTXb2-_MfMk6Pgyplf0QsU=/910x607/smart/e5190ad5d5324fdca29632e53706937f/ccmcms-jdf/13633495.jpg",
+        "prix": 1300.45
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "home 2",
+        "description": "This is the second homme added to the web site",
+        "imageUrl": "https://static.cotemaison.fr/medias_9689/w_2018,h_877,c_crop,x_0,y_659/w_640,h_360,c_fill,g_north/v1404829808/salon-apres-home-staging_4961219.jpg",
+        "prix": 900.45
+      },
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
