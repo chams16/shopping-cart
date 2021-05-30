@@ -50,8 +50,9 @@ export class CartComponent implements OnInit {
   }
 
   clear(){
-    this.cartservice.deletecartitem(this.cartItem).subscribe(()=>{
-      console.log("delete successefully" );
+    this.cartservice.deletecartitem().subscribe(
+      res =>{
+      console.log(res );
       
     })
   }

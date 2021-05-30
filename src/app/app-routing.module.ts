@@ -15,14 +15,14 @@ import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
   {path: '', redirectTo:'/home', pathMatch:'full'},
-  {path:'shop', component: ShoppingCartComponent, canActivate:[AuthGuard]},
+  {path:'shop', component: ShoppingCartComponent},
   {path:'login', component: LoginComponent},
-  {path:'myproduct', component: MyproductComponent, canActivate:[AuthGuard]},
-  {path:'register', component: RegisterComponent, canActivate:[AuthGuard]},
+  {path:'myproduct', component: MyproductComponent},
+  {path:'register', component: RegisterComponent},
   {path:'home', component: HomeComponent},
-  {path:'wishlist', component: WishlistComponent, canActivate:[AuthGuard]},
+  {path:'wishlist', component: WishlistComponent},
   {path:'contactus', component: ContactusComponent},
-  {path:'detail/:id', component: DetailComponent, canActivate:[AuthGuard]},
+  {path:'detail/:id', component: DetailComponent},
   {path:'**', component: NotfoundComponent}
 ];
 

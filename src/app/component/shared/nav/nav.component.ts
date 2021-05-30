@@ -25,6 +25,7 @@ export class NavComponent implements OnInit {
   }
 
   logout(){
+
     localStorage.removeItem("myToken")
     
     this.route.navigate(['/login'])

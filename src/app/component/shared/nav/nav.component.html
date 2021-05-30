@@ -25,10 +25,10 @@
           <div class="dropdown-menu  dropdown" aria-labelledby="dropdownMenuLink">
             <a class="dropdown-item profile" routerLink="profile">profile</a>
 
-            <a *ngIf="!islogged" class="dropdown-item login" [routerLink]="['/login']" >login</a>
-            <a *ngIf="!islogged" class="dropdown-item register" routerLink="register" >register </a>
+            <a  class="dropdown-item login" [routerLink]="['/login']" >login</a>
+            <a  class="dropdown-item register" routerLink="register" >register </a>
             
-            <a *ngIf="islogged" class="dropdown-item profile" routerLink="home" (click)="logout()" >Sign Out</a>
+            <a  class="dropdown-item profile" routerLink="home" (click)="logout()" >Sign Out</a>
             
             <a class="dropdown-item profile" routerLink="home" id="condition">Setting</a>
             <a class="dropdown-item profile" routerLink="home" id="condition">Condition d'utilisation</a>
