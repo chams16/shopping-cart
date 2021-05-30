@@ -41,6 +41,11 @@ export class CartService {
     )
   }
 
+  //maintain the cart to the initial case which is 0
+  deletecartitem(cart:any){
+     return this.http.delete(cartUrl,cart);
+  }
+
   addproducttocart(product:Product):Observable<any>{
     return this.http.post(cartUrl, {product})
 

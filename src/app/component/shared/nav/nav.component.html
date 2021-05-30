@@ -1,13 +1,42 @@
-<div class="d-flex flex-column flex-md-row align-item-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+<div class="d-flex flex-column flex-md-row align-item-center p-3 px-md-4  bg-dark  shadow-sm navigation">
     <h5 class="my-0 mr-md-auto font-weight-normal">
         <app-header></app-header>
     </h5>
-    <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Features</a>
-        <a class="p-2 text-dark" href="#">Enterprise</a>
-        <a class="p-2 text-dark" href="#">Support</a>
-        <a class="p-2 text-dark" href="#">Pricing</a>
+    <nav class="my-2 my-md-0 mr-md-3 ">
+        <a  class="p-2 text-light" [routerLink]="['/shop']" >Products</a>
+
+        <a  class="p-2 text-light" [routerLink]="['/wishlist']" >Wish List</a>
+
+        <a  class="p-2 text-light" [routerLink]="['/myproduct']">My Product</a>
+
+        <a  class="p-2 text-light" [routerLink]="['/contactus']">Contact Us</a>
+
       </nav>
-      <a href="#" class="btn btn-outline-primary btn-sm mr-2" [routerLink]="['/login']">Sign In</a>
-      <a href="#" class="btn btn-outline-success btn-sm" [routerLink]="['/register']">Sign Up</a>
+
+     
+
+      <div class="dropdown ml-1">
+        
+
+        <div>
+          <a class="btn btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="bi bi-person"></i> </a>
+        
+          <div class="dropdown-menu  dropdown" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item profile" routerLink="profile">profile</a>
+
+            <a *ngIf="!islogged" class="dropdown-item login" [routerLink]="['/login']" >login</a>
+            <a *ngIf="!islogged" class="dropdown-item register" routerLink="register" >register </a>
+            
+            <a *ngIf="islogged" class="dropdown-item profile" routerLink="home" (click)="logout()" >Sign Out</a>
+            
+            <a class="dropdown-item profile" routerLink="home" id="condition">Setting</a>
+            <a class="dropdown-item profile" routerLink="home" id="condition">Condition d'utilisation</a>
+            <a class="dropdown-item profile" routerLink="home" id="condition">Regle de confidenialité</a>
+          </div>
+      </div>
+
+      </div>
+
+
 </div>

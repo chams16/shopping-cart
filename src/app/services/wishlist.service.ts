@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { wishlistUrl } from '../../config/api';
+import { Product } from '../models/product';
 
 
 @Injectable({
@@ -33,4 +34,11 @@ export class WishlistService {
   removefromwishlist(productId:any){
     return this.http.delete(wishlistUrl+'/'+productId)
   }
+
+  getfavoris(){
+    return this.http.get<Product[]>(wishlistUrl)
+  }
+
+
+  
 }

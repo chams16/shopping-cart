@@ -3,6 +3,7 @@ import { Product } from 'src/app/models/product';
 import { CartService } from 'src/app/services/cart.service';
 import { MessengerService } from 'src/app/services/messenger.service';
 import { WishlistService } from 'src/app/services/wishlist.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-item',
@@ -17,7 +18,8 @@ export class ProductItemComponent implements OnInit {
   constructor(
     private messengerservice: MessengerService,
     private cartservice: CartService,
-    private wishlist:WishlistService
+    private wishlist:WishlistService,
+    private route: Router
   ) { }
 
   ngOnInit(): void {
@@ -44,6 +46,10 @@ export class ProductItemComponent implements OnInit {
       this.addedtowish=false
      // console.log("buy")
     })
+  }
+
+  selectproduct(id:number){
+    this.route.navigate(['/detail' , id ])
   }
 
 }

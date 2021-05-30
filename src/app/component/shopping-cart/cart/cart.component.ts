@@ -4,6 +4,8 @@ import { Item } from 'src/app/models/item';
 import { CartService } from 'src/app/services/cart.service';
 import { MessengerService } from 'src/app/services/messenger.service';
 import { Product } from '../../../models/product';
+import { HttpClient } from '@angular/common/http';
+import { cartUrl } from '../../../../config/api';
 
 @Component({
   selector: 'app-cart',
@@ -16,7 +18,8 @@ export class CartComponent implements OnInit {
   cartItem :Item[] =[];
   constructor(
     private messengerservice:MessengerService,
-    private cartservice: CartService
+    private cartservice: CartService,
+    private http:HttpClient
   ) { }
   
   ngOnInit() {
@@ -44,6 +47,13 @@ export class CartComponent implements OnInit {
      this.cartItem.forEach(item =>{
      this.carTotal += (item.qty*item.price)
       })
+  }
+
+  clear(){
+    this.cartservice.deletecartitem(this.cartItem).subscribe(()=>{
+      console.log("delete successefully" );
+      
+    })
   }
 
 

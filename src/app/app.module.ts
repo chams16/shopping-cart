@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/shared/header/header.component';
@@ -19,6 +21,17 @@ import { RegisterComponent } from './component/register/register.component';
 import { NotfoundComponent } from './component/shared/notfound/notfound.component';
 import { HomeComponent } from './component/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { WishlistComponent } from './component/wishlist/wishlist.component';
+import { ProductdetailComponent } from './component/productdetail/productdetail.component';
+import { AboutComponent } from './component/home/about/about.component';
+import { ContactComponent } from './component/home/contact/contact.component';
+import { HeaderhomeComponent } from './component/home/headerhome/headerhome.component';
+import { ContactusComponent } from './component/contactus/contactus.component';
+import { MyproductComponent } from './component/myproduct/myproduct.component';
+
+import { ToastrModule, ToastNoAnimation, ToastNoAnimationModule } from 'ngx-toastr';
+
+import { DetailComponent } from './component/shopping-cart/detail/detail.component';
 
 
 @NgModule({
@@ -36,14 +49,23 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     LoginComponent,
     RegisterComponent,
     NotfoundComponent,
-    HomeComponent
+    HomeComponent,
+    WishlistComponent,
+    ProductdetailComponent,
+    AboutComponent,
+    ContactComponent,
+    HeaderhomeComponent,
+    ContactusComponent,
+    MyproductComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ToastNoAnimationModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

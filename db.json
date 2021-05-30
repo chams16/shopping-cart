@@ -4,43 +4,56 @@
       "id": 1,
       "name": "home 1",
       "description": "This is the first homme added to the web site",
-      "imageUrl": "https://img-3.journaldesfemmes.fr/mXVRHyTXb2-_MfMk6Pgyplf0QsU=/910x607/smart/e5190ad5d5324fdca29632e53706937f/ccmcms-jdf/13633495.jpg",
+      "imageUrl": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/60/603fb04a-0664-479d-8e52-56356e685977",
+      "image1": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/30/30f8dae3-801c-481b-9d96-ae95a694aceb",
+      "image2": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/74/74ff9c42-831a-45a9-83d4-dd9294b0a32d",
       "prix": 1300.45
     },
     {
       "id": 2,
       "name": "home 2",
       "description": "This is the second homme added to the web site",
-      "imageUrl": "https://static.cotemaison.fr/medias_9689/w_2018,h_877,c_crop,x_0,y_659/w_640,h_360,c_fill,g_north/v1404829808/salon-apres-home-staging_4961219.jpg",
+      "imageUrl": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/1b/1b9fad5e-1bb5-4511-be94-db5f7959b6f7",
+      "image1": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/b9/b9e289de-feb0-4adc-bb01-236073a1bb77",
+      "image2": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/e4/e4e30c95-f778-4aef-822b-9b32f10e4895",
       "prix": 900.45
     },
     {
       "id": 3,
       "name": "home 3",
       "description": "This is the third homme added to the web site",
-      "imageUrl": "https://developers.google.cn/assistant/smarthome/images/smart-home.svg?hl=zh-cn",
+      "imageUrl": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/56/56aa56d1-71bf-41c2-8076-2d24b8a5dd9a",
+      "image1": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/12/12ceb930-b324-49a7-8cc5-a19746715bac",
+      "image2": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/27/2702541e-b83d-409d-bd4f-8800bac24f63",
       "prix": 321.45
     },
     {
       "id": 4,
       "name": "home 4",
       "description": "This is the fourth homme added to the web site",
-      "imageUrl": "https://homes.nlc.ca/media/images/Modular_pre_built_manufactured_hom.2e16d0ba.fill-900x700.jpg",
+      "imageUrl": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/69/694fa006-a3e1-43bc-915e-e6ee9a8df62d",
+      "image1": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/40/4091f6dd-d2f0-494d-baa9-7e06ff0db161",
+      "image2": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/ed/eda5161f-4126-4fa0-a314-5cacfa33003e",
       "prix": 42.45
     },
     {
       "id": 5,
       "name": "home 5",
       "description": "This is the fifth homme added to the web site",
-      "imageUrl": "https://i.pinimg.com/originals/c9/aa/f8/c9aaf8853557c381c80ee827db0dad64.jpg",
+      "imageUrl": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/f4/f45df723-f76d-4b5a-a283-4b61f832bd61",
+      "image1": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/26/26db10af-647a-4d79-a494-cfe54ebec3e0",
+      "image2": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/eb/eb053547-9ab4-42e1-82ea-a7e5e389d0ea",
       "prix": 1560.45
-    }
-  ],
-  "wishlist": [
+    },
     {
-      "id": 1
+      "id": 7,
+      "name": "HOME6",
+      "description": "this is the 6th home added to the data base",
+      "prix": "792",
+      "imageUrl": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/54/545c2dc0-9751-4079-9dc7-6d6ad5e72f25"
     }
   ],
+  "wishlist": [],
   "cart": [
     {
       "product": {
@@ -101,6 +114,98 @@
         "prix": 900.45
       },
       "id": 6
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "home 2",
+        "description": "This is the second homme added to the web site",
+        "imageUrl": "https://static.cotemaison.fr/medias_9689/w_2018,h_877,c_crop,x_0,y_659/w_640,h_360,c_fill,g_north/v1404829808/salon-apres-home-staging_4961219.jpg",
+        "prix": 900.45
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "home 3",
+        "description": "This is the third homme added to the web site",
+        "imageUrl": "https://developers.google.cn/assistant/smarthome/images/smart-home.svg?hl=zh-cn",
+        "prix": 321.45
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "home 3",
+        "description": "This is the third homme added to the web site",
+        "imageUrl": "https://developers.google.cn/assistant/smarthome/images/smart-home.svg?hl=zh-cn",
+        "prix": 321.45
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "home 5",
+        "description": "This is the fifth homme added to the web site",
+        "imageUrl": "https://i.pinimg.com/originals/c9/aa/f8/c9aaf8853557c381c80ee827db0dad64.jpg",
+        "prix": 1560.45
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "home 5",
+        "description": "This is the fifth homme added to the web site",
+        "imageUrl": "https://i.pinimg.com/originals/c9/aa/f8/c9aaf8853557c381c80ee827db0dad64.jpg",
+        "prix": 1560.45
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "home 3",
+        "description": "This is the third homme added to the web site",
+        "imageUrl": "https://developers.google.cn/assistant/smarthome/images/smart-home.svg?hl=zh-cn",
+        "prix": 321.45
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "home 3",
+        "description": "This is the third homme added to the web site",
+        "imageUrl": "https://developers.google.cn/assistant/smarthome/images/smart-home.svg?hl=zh-cn",
+        "prix": 321.45
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "home 3",
+        "description": "This is the third homme added to the web site",
+        "imageUrl": "https://developers.google.cn/assistant/smarthome/images/smart-home.svg?hl=zh-cn",
+        "prix": 321.45
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "home 1",
+        "description": "This is the first homme added to the web site",
+        "imageUrl": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/60/603fb04a-0664-479d-8e52-56356e685977",
+        "image1": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/30/30f8dae3-801c-481b-9d96-ae95a694aceb",
+        "image2": "https://cdn.cnt-tech.io/api/v1/tenants/dd1f88aa-e3e2-450c-9fa9-a03ea59a6bf0/domains/57a9d53a-fe30-4b6f-a4de-d624bd25134b/buckets/8f139e2f-9e74-4be3-9d30-d8f180f02fbb/statics/74/74ff9c42-831a-45a9-83d4-dd9294b0a32d",
+        "prix": 1300.45
+      },
+      "id": 15
     }
   ],
   "posts": [
@@ -117,7 +222,25 @@
       "postId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "user": [
+    {
+      "username": "chams-eddine",
+      "name": "chams",
+      "email": "chamseddine1119@gmail.com",
+      "password": "123456789",
+      "id": 1
+    },
+    {
+      "username": "chams-eddine",
+      "name": "chams",
+      "email": "chamseddine1119@gmail.com",
+      "password": "123456789",
+      "id": 2
+    }
+  ]
 }
