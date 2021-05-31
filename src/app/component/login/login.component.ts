@@ -46,12 +46,7 @@ export class LoginComponent implements OnInit {
         }else{
           console.log("error")
           //when there's eroor in the identification
-          this.islogged=false
-          
-            this.toastr.error('Error!', 'Invalid username or password!');
-          
-      
-          
+
         }
       })
       

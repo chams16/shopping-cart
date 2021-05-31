@@ -26,14 +26,19 @@ export class RegisterComponent implements OnInit {
     if (islogged()){
       this.route.navigate(['/home'])
     }
+    
   }
 
   
   register(registerform:any){
     let data = registerform.value
-    let utilisateur = new User(data.name,data.username,data.email,data.password,data.type)
+    console.log(data);
+    
+    let utilisateur = new User(data.name,data.username,data.email,data.phone,data.password,data.type)
     this.auth.addUser(utilisateur).subscribe(
       res=>{
+        console.log(res);
+        
         this.toastr.success("bienvenue entre nous")
         this.route.navigate(['/login'])
       },err=>{

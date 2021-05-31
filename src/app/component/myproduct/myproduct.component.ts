@@ -13,24 +13,26 @@ import { Router } from '@angular/router';
 export class MyproductComponent implements OnInit {
 
   ischcked:any
+  addimage:any
   taille:any
 
   constructor( private ps:ProductService,private toastr:ToastrService, private route:Router) { }
 
   ngOnInit(): void {
-    this.ps.getProduct().subscribe(res=>{
-      this.taille=res.length
-      console.log(this.taille);
-      
-    })
+    
   }
 
   add(f:any){
+    this.ps.getProduct().subscribe(res=>{
+      this.taille=res.length
+      
+      
+    })
     let data=f.value
-    let home = new Product(this.taille+1,data.titre,data.bio,data.prix,data.img);
+    let home = new Product(this.taille,data.titre,data.bio,data.prix,data.img,data.image1,data.image2);
     this.ps.addhome(home).subscribe(
       res=>{
-        this.toastr.success("hello")
+        this.toastr.success("bien ajouté")
         this.route.navigate(['/shop'])
  
       },err=>{
@@ -46,5 +48,11 @@ export class MyproductComponent implements OnInit {
       this.ischcked=true
     
   }
+
+  Addimage(f:any){
+    
+    this.addimage=true
+  
+}
 
 }

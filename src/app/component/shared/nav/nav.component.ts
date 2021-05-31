@@ -18,16 +18,20 @@ export class NavComponent implements OnInit {
     private toastr:ToastrService
   ) { }
 
-   islogged: boolean | undefined 
+   islogged:any
+
+   
 
   ngOnInit(): void {
    this.islogged = this.auth.IsLoggedIn()
+   
+   
   }
 
   logout(){
 
     localStorage.removeItem("myToken")
-    
+    this.islogged = this.auth.IsLoggedIn()
     this.route.navigate(['/login'])
   }
 

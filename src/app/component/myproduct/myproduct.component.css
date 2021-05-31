@@ -1,0 +1,17 @@
+.site-footer
+{
+  background-color:#26272b;
+  padding:10px 0 10px;
+  font-size:15px;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  color:#737373;
+}
+
+.thanks{
+  margin-top: 25px;
+  
+}
+

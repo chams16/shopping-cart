@@ -1,0 +1,80 @@
+.border-md {
+    border-width: 2px;
+}
+
+.btn-facebook {
+    border-radius: 50px;
+    color: gray;
+    background-color: #fff;
+    padding: 8px 40px;
+    cursor: pointer;
+    border: 2px solid gray !important
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+    color: #fff;
+    background-image: linear-gradient(to right, sienna, gray)
+}
+
+.btn-twitter {
+    border-radius: 50px;
+    color: gray;
+    background-color: #fff;
+    padding: 8px 40px;
+    cursor: pointer;
+    border: 2px solid gray !important
+}
+
+.btn-twitter:hover, .btn-twitter:focus {
+    color: #fff;
+    background-image: linear-gradient(to right, sienna, gray)
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    min-height: 100vh;
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.btn-color {
+    border-radius: 50px;
+    color: #fff;
+    background-image: linear-gradient(to right, sienna, gray);
+    padding: 15px;
+    cursor: pointer;
+    border: none !important;
+    margin-top: 40px
+}
+
+.btn-color:hover {
+    color: #fff;
+    background-image: linear-gradient(to right, gray, sienna)
+}
+.redirect{
+    color: sienna;
+}

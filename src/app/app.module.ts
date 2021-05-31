@@ -32,6 +32,10 @@ import { MyproductComponent } from './component/myproduct/myproduct.component';
 import { ToastrModule, ToastNoAnimation, ToastNoAnimationModule } from 'ngx-toastr';
 
 import { DetailComponent } from './component/shopping-cart/detail/detail.component';
+import { ProfileComponent } from './component/home/profile/profile.component';
+import { HelpComponent } from './component/home/help/help.component';
+import { ConditionComponent } from './component/home/condition/condition.component';
+import { SettingComponent } from './component/home/setting/setting.component';
 
 
 @NgModule({
@@ -57,7 +61,11 @@ import { DetailComponent } from './component/shopping-cart/detail/detail.compone
     HeaderhomeComponent,
     ContactusComponent,
     MyproductComponent,
-    DetailComponent
+    DetailComponent,
+    ProfileComponent,
+    HelpComponent,
+    ConditionComponent,
+    SettingComponent
   ],
   imports: [
     BrowserModule,

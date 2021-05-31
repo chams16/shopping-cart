@@ -19,8 +19,8 @@ export class AuthentificationService {
 
 
 
-  addUser(x:User){
-    return this.http.post<any>('http://localhost:3000/user', x)
+  addUser(x:any){
+    return this.http.post('http://localhost:3000/user', x)
   }
 
   IsLoggedIn(){
