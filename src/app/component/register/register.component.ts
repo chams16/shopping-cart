@@ -22,10 +22,7 @@ export class RegisterComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    let islogged = this.auth.IsLoggedIn
-    if (islogged()){
-      this.route.navigate(['/home'])
-    }
+    
     
   }
 
@@ -38,9 +35,9 @@ export class RegisterComponent implements OnInit {
     this.auth.addUser(utilisateur).subscribe(
       res=>{
         console.log(res);
-        
-        this.toastr.success("bienvenue entre nous")
+  
         this.route.navigate(['/login'])
+        this.toastr.success("bienvenue entre nous")
       },err=>{
         console.log(err);
         

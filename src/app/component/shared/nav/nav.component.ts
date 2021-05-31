@@ -31,6 +31,8 @@ export class NavComponent implements OnInit {
   logout(){
 
     localStorage.removeItem("myToken")
+    console.log(this.islogged);
+    
     this.islogged = this.auth.IsLoggedIn()
     this.route.navigate(['/login'])
   }

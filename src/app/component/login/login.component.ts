@@ -24,6 +24,8 @@ export class LoginComponent implements OnInit {
     let islogged = this.auth.IsLoggedIn
     if (islogged()){
       this.route.navigate(['/home'])
+      //console.log(islogged);
+      
     }
   }
 
@@ -36,13 +38,15 @@ export class LoginComponent implements OnInit {
       this.user = data
       this.user.forEach((i: any)=>{
         if (i.email==entrer.username && i.password==entrer.password){
-          console.log("hello")
+          //console.log("hello")
           let token = i.id
           localStorage.setItem("myToken",token)
+          console.log(this.islogged);
+          
           
           this.toastr.success('you are welcome!', 'hello!');
           
-          this.route.navigate(['/home'])
+          this.route.navigate(['/shop'])
         }else{
           console.log("error")
           //when there's eroor in the identification
