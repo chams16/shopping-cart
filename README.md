@@ -1,3 +1,9 @@
+# json-server 
+we use locale storage and a local API to test our service for that reason we use alsoa local dtabase so we use json server a fake rest API
+to run the project we have to install the json-server locally using the command line npm i -g json-server after that we run the server in a new cmd window using the 
+command json-server db.json and we put it like that
+
+
 # Store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
