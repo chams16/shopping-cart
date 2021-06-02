@@ -40,11 +40,16 @@
     text-transform: uppercase;
     font-size: medium;
 }
+.welcome-text{
+  font-size: 60px;
+}
 
 .guest-form-card label{
     font-size: small;
 }
-
+#home{
+  color: burlywood; font-size: 60px;
+}
 .btn-primary.disabled, .btn-primary:disabled{
     cursor: not-allowed;
     background-color: gray;

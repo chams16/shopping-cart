@@ -1,17 +1,22 @@
 .body{
-    width: 100%;
-    height: 500px;
-    background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat ;
-    background-size: cover;
+    width: 400px;
+    height: 800px;
+    background-position: center center;
+    background: url(../../../assets/ben-o-bro-wpU4veNGnHg-unsplash.jpg);
+        background-size: cover;
 }
+
+/*background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat ;
+*/
 
 .la{
   text-align: center;
   
 }
 
+
 h3{
-  color: chocolate;
+  color:black;
 
 }
 h1{
@@ -39,4 +44,5 @@ h1{
 .welcome-text{
   color: sienna;
   margin-top: 50px;
+  font-size: 60px;
 }
